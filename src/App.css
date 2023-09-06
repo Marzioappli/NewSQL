@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+body {
+  background-color: #f0f0f0;
+  background-repeat: no-repeat;
+  background-size: 2000px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 15px;
+  background-color: #333;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-logo img {
+  width: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-left: 40px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-links a:hover {
+  border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+
+
+
+
+.access-form {
+  text-align: center;
+  padding: 150px;
+}
+
+.access-form input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  transition: border-color 0.3s;
+  margin-bottom: 15px;
+}
+
+.access-form input[type="password"]:focus {
+  border-color: #15ff00;
+  outline: none;
+}
+
+.datenbutton{
+  background-color: #333;
+  color: #fe0000;
+  font-size: 20px;
+  padding: 15px 30px;
+  border: whitesmoke;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.datenbutton:hover{
+  color: #15ff00;
+}
+.titel{
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
 }

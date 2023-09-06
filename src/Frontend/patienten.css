@@ -1,0 +1,89 @@
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 850px;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .edit-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .edit-button::before {
+    font-family: "Font Awesome 5 Free";
+    margin-right: 7px;
+  }
+  .save-button {
+    background-color: rgb(142, 142, 142);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .save-button::before {
+    font-family: "Font Awesome 5 Free";
+    margin-right: 7px;
+  }
+  .cancel-button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .cancel-button::before {
+    font-family: "Font Awesome 5 Free";
+    margin-right: 7px;
+  }
+  .delete-button::before {
+    content: "\f7f9";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 7px;
+  }
+  .center-content {
+    margin-top: 200px;
+    margin-bottom: 380px;
+  }
